@@ -1,0 +1,30 @@
+.wrapper{
+  width: 100%;
+  padding-top: 10px;
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  div{
+    width: 150px;
+    height: 52px;
+    border-radius: 30px;
+    background-color: #2723d8;
+    font-family: Futura;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-out;
+    &:hover{
+      cursor: pointer;
+      transform: scale(1.05);
+    }
+  }
+}

@@ -1,0 +1,101 @@
+.wrapper{
+  width: 100%;
+  margin: 0;
+  padding-top: 40px;
+  .content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    img{
+      width: 300px;
+    }
+    .topBlock{
+      display: flex;
+      justify-content: space-between;
+    }
+    .edit{
+      background-color: #2723d8;
+      width: 150px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-family: Futura;
+      font-size: 19px;
+      border-radius: 30px;
+      transition: all 0.5s ease-out;
+      &:hover{
+        cursor: pointer;
+        transform: scale(1.05);
+      }
+    }
+    .delete{
+      background-color: #ee5c5c;
+      width: 150px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-family: Futura;
+      font-size: 19px;
+      border-radius: 30px;
+      transition: all 0.5s ease-out;
+      &:hover{
+        cursor: pointer;
+        transform: scale(1.05);
+      }
+    }
+    h2{
+      font-family: Futura;
+      font-size: 40px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    p{
+      font-family: Futura;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  button{
+    background-color: #2723d8;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-family: Futura;
+    font-size: 19px;
+    transition: all 0.5s ease-out;
+    &:hover{
+      cursor: pointer;
+      transform: scale(1.05);
+    }
+  }
+  .item{
+    margin-bottom: 20px;
+    hr{
+      margin-top: 20px;
+    }
+    p{
+      font-family: Futura;
+      font-size: 15px;
+    }
+    input{
+      border: 1px solid black;
+      width: 250px;
+      height: 35px;
+      border-radius: 10px;
+      font-family: Futura;
+      font-size: 15px;
+    }
+  }
+}

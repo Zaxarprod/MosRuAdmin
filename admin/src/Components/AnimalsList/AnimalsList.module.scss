@@ -1,0 +1,44 @@
+.animalPage{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.content{
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+}
+.filter{
+  width: 25%;
+}
+.animals{
+  width: 75%;
+}
+.header{
+  width: 25%;
+  h2{
+    font-family: Futura;
+    font-size: 21px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+  }
+}
+.search{
+  width: 75%;
+  .inputSearch{
+    button{
+      width: 91px;
+      height: 39px;
+      background-color: #2723d8;
+      font-size: 20px;
+    }
+    input{
+      height: 39px;
+    }
+  }
+}

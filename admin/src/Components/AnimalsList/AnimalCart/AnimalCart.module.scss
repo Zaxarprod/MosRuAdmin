@@ -1,0 +1,32 @@
+a{
+  text-decoration: none;
+  color: white;
+}
+.cart{
+  width: 100%;
+  height: 100px;
+  background-color: #2723d8;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 30px;
+  div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Futura;
+    font-size: 20px;
+    h2, h3 {
+      color: white;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  p{
+    font-family: Futura;
+    font-size: 16px;
+    color: white;
+    padding-left: 20px;
+  }
+}
